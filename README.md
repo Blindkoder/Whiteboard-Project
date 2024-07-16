@@ -269,4 +269,3 @@ Start the server using node server.js.
 Open multiple browser tabs/windows and navigate to http://localhost:3000.
 Perform drawing actions in one tab/window and observe if the changes are reflected in all other tabs/windows in real-time.
 License
-This project is licensed under the MIT License.
