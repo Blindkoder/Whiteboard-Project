@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Whiteboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="toolbar">
+        <button id="pencil">Pencil</button>
+        <button id="line">Line</button>
+        <button id="rectangle">Rectangle</button>
+        <input type="color" id="colorPicker">
+        <button id="delete">Delete</button>
+        <button id="undo">Undo</button> <!-- Added Undo button -->
+    </div>
+    <canvas id="whiteboard"></canvas>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
