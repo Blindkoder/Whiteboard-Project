@@ -16,12 +16,6 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/whiteboard-app.git
-cd whiteboard-app
-Install dependencies:
-
-bash
-Copy code
 npm install
 Running the Application
 Start the server:
